@@ -1,6 +1,5 @@
-
-Znaleziono trase: 
-Start: Siedlce
-Przez: Mrozy
-Meta: Warszawa
-Odleglosc: 100
+Znaleziono trase:
+Start: Wwa
+Przez: MMz
+Meta: Siedlce
+Odleglosc: 84
