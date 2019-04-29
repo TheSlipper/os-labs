@@ -10,3 +10,4 @@ do
 		chmod +x $i
 	fi
 done
+exit 0

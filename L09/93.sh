@@ -1,5 +1,8 @@
 #!/bin/bash
 # 7
+if [ $# -eq 0 ]; then
+	exit 5
+fi
 avg=0
 for i in $(seq 1 $1)
 do
@@ -11,3 +14,4 @@ do
 done
 avg=$(expr $avg / $1)
 echo "Avg: $avg"
+exit 0

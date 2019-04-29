@@ -14,3 +14,4 @@ do
 	cp ${file_arr[$index]} backups/
 	index=$(expr $index + 1)
 done
+exit 0
