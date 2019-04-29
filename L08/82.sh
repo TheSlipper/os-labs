@@ -1,5 +1,10 @@
 #!/bin/bash
 # Dlaczego z podwojnymi dziala a z pojedynczymi nie?
+if [ $# -ne 1 ]; then
+	echo "Usage: $0 nazwa_pliku"
+	exit -1
+fi
+
 if [[ -d $1 ]]; then
 	echo "Directory"
 else
@@ -30,3 +35,4 @@ else
 		exit 1
 	fi
 fi
+

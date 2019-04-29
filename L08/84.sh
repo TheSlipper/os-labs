@@ -1,4 +1,8 @@
 #!/bin/bash
+if [ $# -ne 1 ]; then
+	echo "Usage: $0 song_title song_genre song_performer"
+	exit -1
+fi
 song_title=$1
 song_genre=$2
 song_performer=$3
