@@ -1,9 +1,9 @@
 #!/bin/bash
 #for i in {1..$2}
-if [ $# -eq 0 ]; then
-	echo "No arguments supplied"
-	exit 5
-fi
+#if [ $# -eq 0 ]; then
+#	echo "No arguments supplied"
+#	exit 5
+#fi
 sixes=0
 rolls=0
 for (( ; ; ))
